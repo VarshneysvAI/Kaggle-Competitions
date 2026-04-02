@@ -1,0 +1,3571 @@
+prompt,answer,source
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000001
+11111111 -> 11111110
+10101010 -> 10101011
+01010101 -> 01010100
+00001111 -> 00001110
+11110000 -> 11110001
+10000000 -> 10000001
+00000001 -> 00000000
+Now, determine the output for: 00101011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 1 = 1. Target 43 ^ 1 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000010
+11111111 -> 11111101
+10101010 -> 10101000
+01010101 -> 01010111
+00001111 -> 00001101
+11110000 -> 11110010
+10000000 -> 10000010
+00000001 -> 00000011
+Now, determine the output for: 00101100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 2 = 2. Target 44 ^ 2 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000011
+11111111 -> 11111100
+10101010 -> 10101001
+01010101 -> 01010110
+00001111 -> 00001100
+11110000 -> 11110011
+10000000 -> 10000011
+00000001 -> 00000010
+Now, determine the output for: 00101101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 3 = 3. Target 45 ^ 3 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000100
+11111111 -> 11111011
+10101010 -> 10101110
+01010101 -> 01010001
+00001111 -> 00001011
+11110000 -> 11110100
+10000000 -> 10000100
+00000001 -> 00000101
+Now, determine the output for: 00101110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 4 = 4. Target 46 ^ 4 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000101
+11111111 -> 11111010
+10101010 -> 10101111
+01010101 -> 01010000
+00001111 -> 00001010
+11110000 -> 11110101
+10000000 -> 10000101
+00000001 -> 00000100
+Now, determine the output for: 00101111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 5 = 5. Target 47 ^ 5 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000110
+11111111 -> 11111001
+10101010 -> 10101100
+01010101 -> 01010011
+00001111 -> 00001001
+11110000 -> 11110110
+10000000 -> 10000110
+00000001 -> 00000111
+Now, determine the output for: 00110000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 6 = 6. Target 48 ^ 6 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00000111
+11111111 -> 11111000
+10101010 -> 10101101
+01010101 -> 01010010
+00001111 -> 00001000
+11110000 -> 11110111
+10000000 -> 10000111
+00000001 -> 00000110
+Now, determine the output for: 00110001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 7 = 7. Target 49 ^ 7 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001000
+11111111 -> 11110111
+10101010 -> 10100010
+01010101 -> 01011101
+00001111 -> 00000111
+11110000 -> 11111000
+10000000 -> 10001000
+00000001 -> 00001001
+Now, determine the output for: 00110010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 8 = 8. Target 50 ^ 8 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001001
+11111111 -> 11110110
+10101010 -> 10100011
+01010101 -> 01011100
+00001111 -> 00000110
+11110000 -> 11111001
+10000000 -> 10001001
+00000001 -> 00001000
+Now, determine the output for: 00110011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 9 = 9. Target 51 ^ 9 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001010
+11111111 -> 11110101
+10101010 -> 10100000
+01010101 -> 01011111
+00001111 -> 00000101
+11110000 -> 11111010
+10000000 -> 10001010
+00000001 -> 00001011
+Now, determine the output for: 00110100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 10 = 10. Target 52 ^ 10 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001011
+11111111 -> 11110100
+10101010 -> 10100001
+01010101 -> 01011110
+00001111 -> 00000100
+11110000 -> 11111011
+10000000 -> 10001011
+00000001 -> 00001010
+Now, determine the output for: 00110101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 11 = 11. Target 53 ^ 11 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001100
+11111111 -> 11110011
+10101010 -> 10100110
+01010101 -> 01011001
+00001111 -> 00000011
+11110000 -> 11111100
+10000000 -> 10001100
+00000001 -> 00001101
+Now, determine the output for: 00110110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 12 = 12. Target 54 ^ 12 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001101
+11111111 -> 11110010
+10101010 -> 10100111
+01010101 -> 01011000
+00001111 -> 00000010
+11110000 -> 11111101
+10000000 -> 10001101
+00000001 -> 00001100
+Now, determine the output for: 00110111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 13 = 13. Target 55 ^ 13 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001110
+11111111 -> 11110001
+10101010 -> 10100100
+01010101 -> 01011011
+00001111 -> 00000001
+11110000 -> 11111110
+10000000 -> 10001110
+00000001 -> 00001111
+Now, determine the output for: 00111000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 14 = 14. Target 56 ^ 14 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00001111
+11111111 -> 11110000
+10101010 -> 10100101
+01010101 -> 01011010
+00001111 -> 00000000
+11110000 -> 11111111
+10000000 -> 10001111
+00000001 -> 00001110
+Now, determine the output for: 00111001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 15 = 15. Target 57 ^ 15 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010000
+11111111 -> 11101111
+10101010 -> 10111010
+01010101 -> 01000101
+00001111 -> 00011111
+11110000 -> 11100000
+10000000 -> 10010000
+00000001 -> 00010001
+Now, determine the output for: 00111010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 16 = 16. Target 58 ^ 16 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010001
+11111111 -> 11101110
+10101010 -> 10111011
+01010101 -> 01000100
+00001111 -> 00011110
+11110000 -> 11100001
+10000000 -> 10010001
+00000001 -> 00010000
+Now, determine the output for: 00111011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 17 = 17. Target 59 ^ 17 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010010
+11111111 -> 11101101
+10101010 -> 10111000
+01010101 -> 01000111
+00001111 -> 00011101
+11110000 -> 11100010
+10000000 -> 10010010
+00000001 -> 00010011
+Now, determine the output for: 00111100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 18 = 18. Target 60 ^ 18 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010011
+11111111 -> 11101100
+10101010 -> 10111001
+01010101 -> 01000110
+00001111 -> 00011100
+11110000 -> 11100011
+10000000 -> 10010011
+00000001 -> 00010010
+Now, determine the output for: 00111101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 19 = 19. Target 61 ^ 19 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010100
+11111111 -> 11101011
+10101010 -> 10111110
+01010101 -> 01000001
+00001111 -> 00011011
+11110000 -> 11100100
+10000000 -> 10010100
+00000001 -> 00010101
+Now, determine the output for: 00111110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 20 = 20. Target 62 ^ 20 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010101
+11111111 -> 11101010
+10101010 -> 10111111
+01010101 -> 01000000
+00001111 -> 00011010
+11110000 -> 11100101
+10000000 -> 10010101
+00000001 -> 00010100
+Now, determine the output for: 00111111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 21 = 21. Target 63 ^ 21 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010110
+11111111 -> 11101001
+10101010 -> 10111100
+01010101 -> 01000011
+00001111 -> 00011001
+11110000 -> 11100110
+10000000 -> 10010110
+00000001 -> 00010111
+Now, determine the output for: 01000000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 22 = 22. Target 64 ^ 22 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00010111
+11111111 -> 11101000
+10101010 -> 10111101
+01010101 -> 01000010
+00001111 -> 00011000
+11110000 -> 11100111
+10000000 -> 10010111
+00000001 -> 00010110
+Now, determine the output for: 01000001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 23 = 23. Target 65 ^ 23 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011000
+11111111 -> 11100111
+10101010 -> 10110010
+01010101 -> 01001101
+00001111 -> 00010111
+11110000 -> 11101000
+10000000 -> 10011000
+00000001 -> 00011001
+Now, determine the output for: 01000010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 24 = 24. Target 66 ^ 24 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011001
+11111111 -> 11100110
+10101010 -> 10110011
+01010101 -> 01001100
+00001111 -> 00010110
+11110000 -> 11101001
+10000000 -> 10011001
+00000001 -> 00011000
+Now, determine the output for: 01000011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 25 = 25. Target 67 ^ 25 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011010
+11111111 -> 11100101
+10101010 -> 10110000
+01010101 -> 01001111
+00001111 -> 00010101
+11110000 -> 11101010
+10000000 -> 10011010
+00000001 -> 00011011
+Now, determine the output for: 01000100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 26 = 26. Target 68 ^ 26 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011011
+11111111 -> 11100100
+10101010 -> 10110001
+01010101 -> 01001110
+00001111 -> 00010100
+11110000 -> 11101011
+10000000 -> 10011011
+00000001 -> 00011010
+Now, determine the output for: 01000101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 27 = 27. Target 69 ^ 27 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011100
+11111111 -> 11100011
+10101010 -> 10110110
+01010101 -> 01001001
+00001111 -> 00010011
+11110000 -> 11101100
+10000000 -> 10011100
+00000001 -> 00011101
+Now, determine the output for: 01000110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 28 = 28. Target 70 ^ 28 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011101
+11111111 -> 11100010
+10101010 -> 10110111
+01010101 -> 01001000
+00001111 -> 00010010
+11110000 -> 11101101
+10000000 -> 10011101
+00000001 -> 00011100
+Now, determine the output for: 01000111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 29 = 29. Target 71 ^ 29 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011110
+11111111 -> 11100001
+10101010 -> 10110100
+01010101 -> 01001011
+00001111 -> 00010001
+11110000 -> 11101110
+10000000 -> 10011110
+00000001 -> 00011111
+Now, determine the output for: 01001000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 30 = 30. Target 72 ^ 30 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00011111
+11111111 -> 11100000
+10101010 -> 10110101
+01010101 -> 01001010
+00001111 -> 00010000
+11110000 -> 11101111
+10000000 -> 10011111
+00000001 -> 00011110
+Now, determine the output for: 01001001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 31 = 31. Target 73 ^ 31 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100000
+11111111 -> 11011111
+10101010 -> 10001010
+01010101 -> 01110101
+00001111 -> 00101111
+11110000 -> 11010000
+10000000 -> 10100000
+00000001 -> 00100001
+Now, determine the output for: 01001010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 32 = 32. Target 74 ^ 32 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100001
+11111111 -> 11011110
+10101010 -> 10001011
+01010101 -> 01110100
+00001111 -> 00101110
+11110000 -> 11010001
+10000000 -> 10100001
+00000001 -> 00100000
+Now, determine the output for: 01001011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 33 = 33. Target 75 ^ 33 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100010
+11111111 -> 11011101
+10101010 -> 10001000
+01010101 -> 01110111
+00001111 -> 00101101
+11110000 -> 11010010
+10000000 -> 10100010
+00000001 -> 00100011
+Now, determine the output for: 01001100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 34 = 34. Target 76 ^ 34 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100011
+11111111 -> 11011100
+10101010 -> 10001001
+01010101 -> 01110110
+00001111 -> 00101100
+11110000 -> 11010011
+10000000 -> 10100011
+00000001 -> 00100010
+Now, determine the output for: 01001101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 35 = 35. Target 77 ^ 35 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100100
+11111111 -> 11011011
+10101010 -> 10001110
+01010101 -> 01110001
+00001111 -> 00101011
+11110000 -> 11010100
+10000000 -> 10100100
+00000001 -> 00100101
+Now, determine the output for: 01001110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 36 = 36. Target 78 ^ 36 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100101
+11111111 -> 11011010
+10101010 -> 10001111
+01010101 -> 01110000
+00001111 -> 00101010
+11110000 -> 11010101
+10000000 -> 10100101
+00000001 -> 00100100
+Now, determine the output for: 01001111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 37 = 37. Target 79 ^ 37 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100110
+11111111 -> 11011001
+10101010 -> 10001100
+01010101 -> 01110011
+00001111 -> 00101001
+11110000 -> 11010110
+10000000 -> 10100110
+00000001 -> 00100111
+Now, determine the output for: 01010000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 38 = 38. Target 80 ^ 38 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00100111
+11111111 -> 11011000
+10101010 -> 10001101
+01010101 -> 01110010
+00001111 -> 00101000
+11110000 -> 11010111
+10000000 -> 10100111
+00000001 -> 00100110
+Now, determine the output for: 01010001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 39 = 39. Target 81 ^ 39 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101000
+11111111 -> 11010111
+10101010 -> 10000010
+01010101 -> 01111101
+00001111 -> 00100111
+11110000 -> 11011000
+10000000 -> 10101000
+00000001 -> 00101001
+Now, determine the output for: 01010010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 40 = 40. Target 82 ^ 40 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101001
+11111111 -> 11010110
+10101010 -> 10000011
+01010101 -> 01111100
+00001111 -> 00100110
+11110000 -> 11011001
+10000000 -> 10101001
+00000001 -> 00101000
+Now, determine the output for: 01010011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 41 = 41. Target 83 ^ 41 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101010
+11111111 -> 11010101
+10101010 -> 10000000
+01010101 -> 01111111
+00001111 -> 00100101
+11110000 -> 11011010
+10000000 -> 10101010
+00000001 -> 00101011
+Now, determine the output for: 01010100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 42 = 42. Target 84 ^ 42 = 126.
+</scratchpad>
+\boxed{01111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101011
+11111111 -> 11010100
+10101010 -> 10000001
+01010101 -> 01111110
+00001111 -> 00100100
+11110000 -> 11011011
+10000000 -> 10101011
+00000001 -> 00101010
+Now, determine the output for: 01010110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 43 = 43. Target 86 ^ 43 = 125.
+</scratchpad>
+\boxed{01111101}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101100
+11111111 -> 11010011
+10101010 -> 10000110
+01010101 -> 01111001
+00001111 -> 00100011
+11110000 -> 11011100
+10000000 -> 10101100
+00000001 -> 00101101
+Now, determine the output for: 01010110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 44 = 44. Target 86 ^ 44 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101101
+11111111 -> 11010010
+10101010 -> 10000111
+01010101 -> 01111000
+00001111 -> 00100010
+11110000 -> 11011101
+10000000 -> 10101101
+00000001 -> 00101100
+Now, determine the output for: 01010111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 45 = 45. Target 87 ^ 45 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101110
+11111111 -> 11010001
+10101010 -> 10000100
+01010101 -> 01111011
+00001111 -> 00100001
+11110000 -> 11011110
+10000000 -> 10101110
+00000001 -> 00101111
+Now, determine the output for: 01011000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 46 = 46. Target 88 ^ 46 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00101111
+11111111 -> 11010000
+10101010 -> 10000101
+01010101 -> 01111010
+00001111 -> 00100000
+11110000 -> 11011111
+10000000 -> 10101111
+00000001 -> 00101110
+Now, determine the output for: 01011001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 47 = 47. Target 89 ^ 47 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110000
+11111111 -> 11001111
+10101010 -> 10011010
+01010101 -> 01100101
+00001111 -> 00111111
+11110000 -> 11000000
+10000000 -> 10110000
+00000001 -> 00110001
+Now, determine the output for: 01011010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 48 = 48. Target 90 ^ 48 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110001
+11111111 -> 11001110
+10101010 -> 10011011
+01010101 -> 01100100
+00001111 -> 00111110
+11110000 -> 11000001
+10000000 -> 10110001
+00000001 -> 00110000
+Now, determine the output for: 01011011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 49 = 49. Target 91 ^ 49 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110010
+11111111 -> 11001101
+10101010 -> 10011000
+01010101 -> 01100111
+00001111 -> 00111101
+11110000 -> 11000010
+10000000 -> 10110010
+00000001 -> 00110011
+Now, determine the output for: 01011100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 50 = 50. Target 92 ^ 50 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110011
+11111111 -> 11001100
+10101010 -> 10011001
+01010101 -> 01100110
+00001111 -> 00111100
+11110000 -> 11000011
+10000000 -> 10110011
+00000001 -> 00110010
+Now, determine the output for: 01011101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 51 = 51. Target 93 ^ 51 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110100
+11111111 -> 11001011
+10101010 -> 10011110
+01010101 -> 01100001
+00001111 -> 00111011
+11110000 -> 11000100
+10000000 -> 10110100
+00000001 -> 00110101
+Now, determine the output for: 01011110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 52 = 52. Target 94 ^ 52 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110101
+11111111 -> 11001010
+10101010 -> 10011111
+01010101 -> 01100000
+00001111 -> 00111010
+11110000 -> 11000101
+10000000 -> 10110101
+00000001 -> 00110100
+Now, determine the output for: 01011111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 53 = 53. Target 95 ^ 53 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110110
+11111111 -> 11001001
+10101010 -> 10011100
+01010101 -> 01100011
+00001111 -> 00111001
+11110000 -> 11000110
+10000000 -> 10110110
+00000001 -> 00110111
+Now, determine the output for: 01100000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 54 = 54. Target 96 ^ 54 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00110111
+11111111 -> 11001000
+10101010 -> 10011101
+01010101 -> 01100010
+00001111 -> 00111000
+11110000 -> 11000111
+10000000 -> 10110111
+00000001 -> 00110110
+Now, determine the output for: 01100001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 55 = 55. Target 97 ^ 55 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111000
+11111111 -> 11000111
+10101010 -> 10010010
+01010101 -> 01101101
+00001111 -> 00110111
+11110000 -> 11001000
+10000000 -> 10111000
+00000001 -> 00111001
+Now, determine the output for: 01100010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 56 = 56. Target 98 ^ 56 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111001
+11111111 -> 11000110
+10101010 -> 10010011
+01010101 -> 01101100
+00001111 -> 00110110
+11110000 -> 11001001
+10000000 -> 10111001
+00000001 -> 00111000
+Now, determine the output for: 01100011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 57 = 57. Target 99 ^ 57 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111010
+11111111 -> 11000101
+10101010 -> 10010000
+01010101 -> 01101111
+00001111 -> 00110101
+11110000 -> 11001010
+10000000 -> 10111010
+00000001 -> 00111011
+Now, determine the output for: 01100100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 58 = 58. Target 100 ^ 58 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111011
+11111111 -> 11000100
+10101010 -> 10010001
+01010101 -> 01101110
+00001111 -> 00110100
+11110000 -> 11001011
+10000000 -> 10111011
+00000001 -> 00111010
+Now, determine the output for: 01100101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 59 = 59. Target 101 ^ 59 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111100
+11111111 -> 11000011
+10101010 -> 10010110
+01010101 -> 01101001
+00001111 -> 00110011
+11110000 -> 11001100
+10000000 -> 10111100
+00000001 -> 00111101
+Now, determine the output for: 01100110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 60 = 60. Target 102 ^ 60 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111101
+11111111 -> 11000010
+10101010 -> 10010111
+01010101 -> 01101000
+00001111 -> 00110010
+11110000 -> 11001101
+10000000 -> 10111101
+00000001 -> 00111100
+Now, determine the output for: 01100111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 61 = 61. Target 103 ^ 61 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111110
+11111111 -> 11000001
+10101010 -> 10010100
+01010101 -> 01101011
+00001111 -> 00110001
+11110000 -> 11001110
+10000000 -> 10111110
+00000001 -> 00111111
+Now, determine the output for: 01101000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 62 = 62. Target 104 ^ 62 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 00111111
+11111111 -> 11000000
+10101010 -> 10010101
+01010101 -> 01101010
+00001111 -> 00110000
+11110000 -> 11001111
+10000000 -> 10111111
+00000001 -> 00111110
+Now, determine the output for: 01101001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 63 = 63. Target 105 ^ 63 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000000
+11111111 -> 10111111
+10101010 -> 11101010
+01010101 -> 00010101
+00001111 -> 01001111
+11110000 -> 10110000
+10000000 -> 11000000
+00000001 -> 01000001
+Now, determine the output for: 01101010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 64 = 64. Target 106 ^ 64 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000001
+11111111 -> 10111110
+10101010 -> 11101011
+01010101 -> 00010100
+00001111 -> 01001110
+11110000 -> 10110001
+10000000 -> 11000001
+00000001 -> 01000000
+Now, determine the output for: 01101011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 65 = 65. Target 107 ^ 65 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000010
+11111111 -> 10111101
+10101010 -> 11101000
+01010101 -> 00010111
+00001111 -> 01001101
+11110000 -> 10110010
+10000000 -> 11000010
+00000001 -> 01000011
+Now, determine the output for: 01101100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 66 = 66. Target 108 ^ 66 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000011
+11111111 -> 10111100
+10101010 -> 11101001
+01010101 -> 00010110
+00001111 -> 01001100
+11110000 -> 10110011
+10000000 -> 11000011
+00000001 -> 01000010
+Now, determine the output for: 01101101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 67 = 67. Target 109 ^ 67 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000100
+11111111 -> 10111011
+10101010 -> 11101110
+01010101 -> 00010001
+00001111 -> 01001011
+11110000 -> 10110100
+10000000 -> 11000100
+00000001 -> 01000101
+Now, determine the output for: 01101110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 68 = 68. Target 110 ^ 68 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000101
+11111111 -> 10111010
+10101010 -> 11101111
+01010101 -> 00010000
+00001111 -> 01001010
+11110000 -> 10110101
+10000000 -> 11000101
+00000001 -> 01000100
+Now, determine the output for: 01101111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 69 = 69. Target 111 ^ 69 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000110
+11111111 -> 10111001
+10101010 -> 11101100
+01010101 -> 00010011
+00001111 -> 01001001
+11110000 -> 10110110
+10000000 -> 11000110
+00000001 -> 01000111
+Now, determine the output for: 01110000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 70 = 70. Target 112 ^ 70 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01000111
+11111111 -> 10111000
+10101010 -> 11101101
+01010101 -> 00010010
+00001111 -> 01001000
+11110000 -> 10110111
+10000000 -> 11000111
+00000001 -> 01000110
+Now, determine the output for: 01110001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 71 = 71. Target 113 ^ 71 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001000
+11111111 -> 10110111
+10101010 -> 11100010
+01010101 -> 00011101
+00001111 -> 01000111
+11110000 -> 10111000
+10000000 -> 11001000
+00000001 -> 01001001
+Now, determine the output for: 01110010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 72 = 72. Target 114 ^ 72 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001001
+11111111 -> 10110110
+10101010 -> 11100011
+01010101 -> 00011100
+00001111 -> 01000110
+11110000 -> 10111001
+10000000 -> 11001001
+00000001 -> 01001000
+Now, determine the output for: 01110011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 73 = 73. Target 115 ^ 73 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001010
+11111111 -> 10110101
+10101010 -> 11100000
+01010101 -> 00011111
+00001111 -> 01000101
+11110000 -> 10111010
+10000000 -> 11001010
+00000001 -> 01001011
+Now, determine the output for: 01110100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 74 = 74. Target 116 ^ 74 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001011
+11111111 -> 10110100
+10101010 -> 11100001
+01010101 -> 00011110
+00001111 -> 01000100
+11110000 -> 10111011
+10000000 -> 11001011
+00000001 -> 01001010
+Now, determine the output for: 01110101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 75 = 75. Target 117 ^ 75 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001100
+11111111 -> 10110011
+10101010 -> 11100110
+01010101 -> 00011001
+00001111 -> 01000011
+11110000 -> 10111100
+10000000 -> 11001100
+00000001 -> 01001101
+Now, determine the output for: 01110110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 76 = 76. Target 118 ^ 76 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001101
+11111111 -> 10110010
+10101010 -> 11100111
+01010101 -> 00011000
+00001111 -> 01000010
+11110000 -> 10111101
+10000000 -> 11001101
+00000001 -> 01001100
+Now, determine the output for: 01110111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 77 = 77. Target 119 ^ 77 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001110
+11111111 -> 10110001
+10101010 -> 11100100
+01010101 -> 00011011
+00001111 -> 01000001
+11110000 -> 10111110
+10000000 -> 11001110
+00000001 -> 01001111
+Now, determine the output for: 01111000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 78 = 78. Target 120 ^ 78 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01001111
+11111111 -> 10110000
+10101010 -> 11100101
+01010101 -> 00011010
+00001111 -> 01000000
+11110000 -> 10111111
+10000000 -> 11001111
+00000001 -> 01001110
+Now, determine the output for: 01111001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 79 = 79. Target 121 ^ 79 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010000
+11111111 -> 10101111
+10101010 -> 11111010
+01010101 -> 00000101
+00001111 -> 01011111
+11110000 -> 10100000
+10000000 -> 11010000
+00000001 -> 01010001
+Now, determine the output for: 01111010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 80 = 80. Target 122 ^ 80 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010001
+11111111 -> 10101110
+10101010 -> 11111011
+01010101 -> 00000100
+00001111 -> 01011110
+11110000 -> 10100001
+10000000 -> 11010001
+00000001 -> 01010000
+Now, determine the output for: 01111011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 81 = 81. Target 123 ^ 81 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010010
+11111111 -> 10101101
+10101010 -> 11111000
+01010101 -> 00000111
+00001111 -> 01011101
+11110000 -> 10100010
+10000000 -> 11010010
+00000001 -> 01010011
+Now, determine the output for: 01111100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 82 = 82. Target 124 ^ 82 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010011
+11111111 -> 10101100
+10101010 -> 11111001
+01010101 -> 00000110
+00001111 -> 01011100
+11110000 -> 10100011
+10000000 -> 11010011
+00000001 -> 01010010
+Now, determine the output for: 01111101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 83 = 83. Target 125 ^ 83 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010100
+11111111 -> 10101011
+10101010 -> 11111110
+01010101 -> 00000001
+00001111 -> 01011011
+11110000 -> 10100100
+10000000 -> 11010100
+00000001 -> 01010101
+Now, determine the output for: 01111110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 84 = 84. Target 126 ^ 84 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010101
+11111111 -> 10101010
+10101010 -> 11111111
+01010101 -> 00000000
+00001111 -> 01011010
+11110000 -> 10100101
+10000000 -> 11010101
+00000001 -> 01010100
+Now, determine the output for: 01111111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 85 = 85. Target 127 ^ 85 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010110
+11111111 -> 10101001
+10101010 -> 11111100
+01010101 -> 00000011
+00001111 -> 01011001
+11110000 -> 10100110
+10000000 -> 11010110
+00000001 -> 01010111
+Now, determine the output for: 10000001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 86 = 86. Target 129 ^ 86 = 215.
+</scratchpad>
+\boxed{11010111}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01010111
+11111111 -> 10101000
+10101010 -> 11111101
+01010101 -> 00000010
+00001111 -> 01011000
+11110000 -> 10100111
+10000000 -> 11010111
+00000001 -> 01010110
+Now, determine the output for: 10000001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 87 = 87. Target 129 ^ 87 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011000
+11111111 -> 10100111
+10101010 -> 11110010
+01010101 -> 00001101
+00001111 -> 01010111
+11110000 -> 10101000
+10000000 -> 11011000
+00000001 -> 01011001
+Now, determine the output for: 10000010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 88 = 88. Target 130 ^ 88 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011001
+11111111 -> 10100110
+10101010 -> 11110011
+01010101 -> 00001100
+00001111 -> 01010110
+11110000 -> 10101001
+10000000 -> 11011001
+00000001 -> 01011000
+Now, determine the output for: 10000011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 89 = 89. Target 131 ^ 89 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011010
+11111111 -> 10100101
+10101010 -> 11110000
+01010101 -> 00001111
+00001111 -> 01010101
+11110000 -> 10101010
+10000000 -> 11011010
+00000001 -> 01011011
+Now, determine the output for: 10000100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 90 = 90. Target 132 ^ 90 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011011
+11111111 -> 10100100
+10101010 -> 11110001
+01010101 -> 00001110
+00001111 -> 01010100
+11110000 -> 10101011
+10000000 -> 11011011
+00000001 -> 01011010
+Now, determine the output for: 10000101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 91 = 91. Target 133 ^ 91 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011100
+11111111 -> 10100011
+10101010 -> 11110110
+01010101 -> 00001001
+00001111 -> 01010011
+11110000 -> 10101100
+10000000 -> 11011100
+00000001 -> 01011101
+Now, determine the output for: 10000110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 92 = 92. Target 134 ^ 92 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011101
+11111111 -> 10100010
+10101010 -> 11110111
+01010101 -> 00001000
+00001111 -> 01010010
+11110000 -> 10101101
+10000000 -> 11011101
+00000001 -> 01011100
+Now, determine the output for: 10000111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 93 = 93. Target 135 ^ 93 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011110
+11111111 -> 10100001
+10101010 -> 11110100
+01010101 -> 00001011
+00001111 -> 01010001
+11110000 -> 10101110
+10000000 -> 11011110
+00000001 -> 01011111
+Now, determine the output for: 10001000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 94 = 94. Target 136 ^ 94 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01011111
+11111111 -> 10100000
+10101010 -> 11110101
+01010101 -> 00001010
+00001111 -> 01010000
+11110000 -> 10101111
+10000000 -> 11011111
+00000001 -> 01011110
+Now, determine the output for: 10001001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 95 = 95. Target 137 ^ 95 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100000
+11111111 -> 10011111
+10101010 -> 11001010
+01010101 -> 00110101
+00001111 -> 01101111
+11110000 -> 10010000
+10000000 -> 11100000
+00000001 -> 01100001
+Now, determine the output for: 10001010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 96 = 96. Target 138 ^ 96 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100001
+11111111 -> 10011110
+10101010 -> 11001011
+01010101 -> 00110100
+00001111 -> 01101110
+11110000 -> 10010001
+10000000 -> 11100001
+00000001 -> 01100000
+Now, determine the output for: 10001011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 97 = 97. Target 139 ^ 97 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100010
+11111111 -> 10011101
+10101010 -> 11001000
+01010101 -> 00110111
+00001111 -> 01101101
+11110000 -> 10010010
+10000000 -> 11100010
+00000001 -> 01100011
+Now, determine the output for: 10001100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 98 = 98. Target 140 ^ 98 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100011
+11111111 -> 10011100
+10101010 -> 11001001
+01010101 -> 00110110
+00001111 -> 01101100
+11110000 -> 10010011
+10000000 -> 11100011
+00000001 -> 01100010
+Now, determine the output for: 10001101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 99 = 99. Target 141 ^ 99 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100100
+11111111 -> 10011011
+10101010 -> 11001110
+01010101 -> 00110001
+00001111 -> 01101011
+11110000 -> 10010100
+10000000 -> 11100100
+00000001 -> 01100101
+Now, determine the output for: 10001110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 100 = 100. Target 142 ^ 100 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100101
+11111111 -> 10011010
+10101010 -> 11001111
+01010101 -> 00110000
+00001111 -> 01101010
+11110000 -> 10010101
+10000000 -> 11100101
+00000001 -> 01100100
+Now, determine the output for: 10001111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 101 = 101. Target 143 ^ 101 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100110
+11111111 -> 10011001
+10101010 -> 11001100
+01010101 -> 00110011
+00001111 -> 01101001
+11110000 -> 10010110
+10000000 -> 11100110
+00000001 -> 01100111
+Now, determine the output for: 10010000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 102 = 102. Target 144 ^ 102 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01100111
+11111111 -> 10011000
+10101010 -> 11001101
+01010101 -> 00110010
+00001111 -> 01101000
+11110000 -> 10010111
+10000000 -> 11100111
+00000001 -> 01100110
+Now, determine the output for: 10010001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 103 = 103. Target 145 ^ 103 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101000
+11111111 -> 10010111
+10101010 -> 11000010
+01010101 -> 00111101
+00001111 -> 01100111
+11110000 -> 10011000
+10000000 -> 11101000
+00000001 -> 01101001
+Now, determine the output for: 10010010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 104 = 104. Target 146 ^ 104 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101001
+11111111 -> 10010110
+10101010 -> 11000011
+01010101 -> 00111100
+00001111 -> 01100110
+11110000 -> 10011001
+10000000 -> 11101001
+00000001 -> 01101000
+Now, determine the output for: 10010011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 105 = 105. Target 147 ^ 105 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101010
+11111111 -> 10010101
+10101010 -> 11000000
+01010101 -> 00111111
+00001111 -> 01100101
+11110000 -> 10011010
+10000000 -> 11101010
+00000001 -> 01101011
+Now, determine the output for: 10010100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 106 = 106. Target 148 ^ 106 = 254.
+</scratchpad>
+\boxed{11111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101011
+11111111 -> 10010100
+10101010 -> 11000001
+01010101 -> 00111110
+00001111 -> 01100100
+11110000 -> 10011011
+10000000 -> 11101011
+00000001 -> 01101010
+Now, determine the output for: 10010101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 107 = 107. Target 149 ^ 107 = 254.
+</scratchpad>
+\boxed{11111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101100
+11111111 -> 10010011
+10101010 -> 11000110
+01010101 -> 00111001
+00001111 -> 01100011
+11110000 -> 10011100
+10000000 -> 11101100
+00000001 -> 01101101
+Now, determine the output for: 10010110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 108 = 108. Target 150 ^ 108 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101101
+11111111 -> 10010010
+10101010 -> 11000111
+01010101 -> 00111000
+00001111 -> 01100010
+11110000 -> 10011101
+10000000 -> 11101101
+00000001 -> 01101100
+Now, determine the output for: 10010111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 109 = 109. Target 151 ^ 109 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101110
+11111111 -> 10010001
+10101010 -> 11000100
+01010101 -> 00111011
+00001111 -> 01100001
+11110000 -> 10011110
+10000000 -> 11101110
+00000001 -> 01101111
+Now, determine the output for: 10011000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 110 = 110. Target 152 ^ 110 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01101111
+11111111 -> 10010000
+10101010 -> 11000101
+01010101 -> 00111010
+00001111 -> 01100000
+11110000 -> 10011111
+10000000 -> 11101111
+00000001 -> 01101110
+Now, determine the output for: 10011001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 111 = 111. Target 153 ^ 111 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110000
+11111111 -> 10001111
+10101010 -> 11011010
+01010101 -> 00100101
+00001111 -> 01111111
+11110000 -> 10000000
+10000000 -> 11110000
+00000001 -> 01110001
+Now, determine the output for: 10011010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 112 = 112. Target 154 ^ 112 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110001
+11111111 -> 10001110
+10101010 -> 11011011
+01010101 -> 00100100
+00001111 -> 01111110
+11110000 -> 10000001
+10000000 -> 11110001
+00000001 -> 01110000
+Now, determine the output for: 10011011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 113 = 113. Target 155 ^ 113 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110010
+11111111 -> 10001101
+10101010 -> 11011000
+01010101 -> 00100111
+00001111 -> 01111101
+11110000 -> 10000010
+10000000 -> 11110010
+00000001 -> 01110011
+Now, determine the output for: 10011100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 114 = 114. Target 156 ^ 114 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110011
+11111111 -> 10001100
+10101010 -> 11011001
+01010101 -> 00100110
+00001111 -> 01111100
+11110000 -> 10000011
+10000000 -> 11110011
+00000001 -> 01110010
+Now, determine the output for: 10011101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 115 = 115. Target 157 ^ 115 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110100
+11111111 -> 10001011
+10101010 -> 11011110
+01010101 -> 00100001
+00001111 -> 01111011
+11110000 -> 10000100
+10000000 -> 11110100
+00000001 -> 01110101
+Now, determine the output for: 10011110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 116 = 116. Target 158 ^ 116 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110101
+11111111 -> 10001010
+10101010 -> 11011111
+01010101 -> 00100000
+00001111 -> 01111010
+11110000 -> 10000101
+10000000 -> 11110101
+00000001 -> 01110100
+Now, determine the output for: 10011111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 117 = 117. Target 159 ^ 117 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110110
+11111111 -> 10001001
+10101010 -> 11011100
+01010101 -> 00100011
+00001111 -> 01111001
+11110000 -> 10000110
+10000000 -> 11110110
+00000001 -> 01110111
+Now, determine the output for: 10100000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 118 = 118. Target 160 ^ 118 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01110111
+11111111 -> 10001000
+10101010 -> 11011101
+01010101 -> 00100010
+00001111 -> 01111000
+11110000 -> 10000111
+10000000 -> 11110111
+00000001 -> 01110110
+Now, determine the output for: 10100001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 119 = 119. Target 161 ^ 119 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111000
+11111111 -> 10000111
+10101010 -> 11010010
+01010101 -> 00101101
+00001111 -> 01110111
+11110000 -> 10001000
+10000000 -> 11111000
+00000001 -> 01111001
+Now, determine the output for: 10100010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 120 = 120. Target 162 ^ 120 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111001
+11111111 -> 10000110
+10101010 -> 11010011
+01010101 -> 00101100
+00001111 -> 01110110
+11110000 -> 10001001
+10000000 -> 11111001
+00000001 -> 01111000
+Now, determine the output for: 10100011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 121 = 121. Target 163 ^ 121 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111010
+11111111 -> 10000101
+10101010 -> 11010000
+01010101 -> 00101111
+00001111 -> 01110101
+11110000 -> 10001010
+10000000 -> 11111010
+00000001 -> 01111011
+Now, determine the output for: 10100100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 122 = 122. Target 164 ^ 122 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111011
+11111111 -> 10000100
+10101010 -> 11010001
+01010101 -> 00101110
+00001111 -> 01110100
+11110000 -> 10001011
+10000000 -> 11111011
+00000001 -> 01111010
+Now, determine the output for: 10100101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 123 = 123. Target 165 ^ 123 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111100
+11111111 -> 10000011
+10101010 -> 11010110
+01010101 -> 00101001
+00001111 -> 01110011
+11110000 -> 10001100
+10000000 -> 11111100
+00000001 -> 01111101
+Now, determine the output for: 10100110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 124 = 124. Target 166 ^ 124 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111101
+11111111 -> 10000010
+10101010 -> 11010111
+01010101 -> 00101000
+00001111 -> 01110010
+11110000 -> 10001101
+10000000 -> 11111101
+00000001 -> 01111100
+Now, determine the output for: 10100111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 125 = 125. Target 167 ^ 125 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111110
+11111111 -> 10000001
+10101010 -> 11010100
+01010101 -> 00101011
+00001111 -> 01110001
+11110000 -> 10001110
+10000000 -> 11111110
+00000001 -> 01111111
+Now, determine the output for: 10101000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 126 = 126. Target 168 ^ 126 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 01111111
+11111111 -> 10000000
+10101010 -> 11010101
+01010101 -> 00101010
+00001111 -> 01110000
+11110000 -> 10001111
+10000000 -> 11111111
+00000001 -> 01111110
+Now, determine the output for: 10101001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 127 = 127. Target 169 ^ 127 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000000
+11111111 -> 01111111
+10101010 -> 00101010
+01010101 -> 11010101
+00001111 -> 10001111
+11110000 -> 01110000
+10000000 -> 00000000
+00000001 -> 10000001
+Now, determine the output for: 10101011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 128 = 128. Target 171 ^ 128 = 43.
+</scratchpad>
+\boxed{00101011}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000001
+11111111 -> 01111110
+10101010 -> 00101011
+01010101 -> 11010100
+00001111 -> 10001110
+11110000 -> 01110001
+10000000 -> 00000001
+00000001 -> 10000000
+Now, determine the output for: 10101011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 129 = 129. Target 171 ^ 129 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000010
+11111111 -> 01111101
+10101010 -> 00101000
+01010101 -> 11010111
+00001111 -> 10001101
+11110000 -> 01110010
+10000000 -> 00000010
+00000001 -> 10000011
+Now, determine the output for: 10101100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 130 = 130. Target 172 ^ 130 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000011
+11111111 -> 01111100
+10101010 -> 00101001
+01010101 -> 11010110
+00001111 -> 10001100
+11110000 -> 01110011
+10000000 -> 00000011
+00000001 -> 10000010
+Now, determine the output for: 10101101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 131 = 131. Target 173 ^ 131 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000100
+11111111 -> 01111011
+10101010 -> 00101110
+01010101 -> 11010001
+00001111 -> 10001011
+11110000 -> 01110100
+10000000 -> 00000100
+00000001 -> 10000101
+Now, determine the output for: 10101110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 132 = 132. Target 174 ^ 132 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000101
+11111111 -> 01111010
+10101010 -> 00101111
+01010101 -> 11010000
+00001111 -> 10001010
+11110000 -> 01110101
+10000000 -> 00000101
+00000001 -> 10000100
+Now, determine the output for: 10101111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 133 = 133. Target 175 ^ 133 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000110
+11111111 -> 01111001
+10101010 -> 00101100
+01010101 -> 11010011
+00001111 -> 10001001
+11110000 -> 01110110
+10000000 -> 00000110
+00000001 -> 10000111
+Now, determine the output for: 10110000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 134 = 134. Target 176 ^ 134 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10000111
+11111111 -> 01111000
+10101010 -> 00101101
+01010101 -> 11010010
+00001111 -> 10001000
+11110000 -> 01110111
+10000000 -> 00000111
+00000001 -> 10000110
+Now, determine the output for: 10110001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 135 = 135. Target 177 ^ 135 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001000
+11111111 -> 01110111
+10101010 -> 00100010
+01010101 -> 11011101
+00001111 -> 10000111
+11110000 -> 01111000
+10000000 -> 00001000
+00000001 -> 10001001
+Now, determine the output for: 10110010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 136 = 136. Target 178 ^ 136 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001001
+11111111 -> 01110110
+10101010 -> 00100011
+01010101 -> 11011100
+00001111 -> 10000110
+11110000 -> 01111001
+10000000 -> 00001001
+00000001 -> 10001000
+Now, determine the output for: 10110011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 137 = 137. Target 179 ^ 137 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001010
+11111111 -> 01110101
+10101010 -> 00100000
+01010101 -> 11011111
+00001111 -> 10000101
+11110000 -> 01111010
+10000000 -> 00001010
+00000001 -> 10001011
+Now, determine the output for: 10110100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 138 = 138. Target 180 ^ 138 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001011
+11111111 -> 01110100
+10101010 -> 00100001
+01010101 -> 11011110
+00001111 -> 10000100
+11110000 -> 01111011
+10000000 -> 00001011
+00000001 -> 10001010
+Now, determine the output for: 10110101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 139 = 139. Target 181 ^ 139 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001100
+11111111 -> 01110011
+10101010 -> 00100110
+01010101 -> 11011001
+00001111 -> 10000011
+11110000 -> 01111100
+10000000 -> 00001100
+00000001 -> 10001101
+Now, determine the output for: 10110110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 140 = 140. Target 182 ^ 140 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001101
+11111111 -> 01110010
+10101010 -> 00100111
+01010101 -> 11011000
+00001111 -> 10000010
+11110000 -> 01111101
+10000000 -> 00001101
+00000001 -> 10001100
+Now, determine the output for: 10110111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 141 = 141. Target 183 ^ 141 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001110
+11111111 -> 01110001
+10101010 -> 00100100
+01010101 -> 11011011
+00001111 -> 10000001
+11110000 -> 01111110
+10000000 -> 00001110
+00000001 -> 10001111
+Now, determine the output for: 10111000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 142 = 142. Target 184 ^ 142 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10001111
+11111111 -> 01110000
+10101010 -> 00100101
+01010101 -> 11011010
+00001111 -> 10000000
+11110000 -> 01111111
+10000000 -> 00001111
+00000001 -> 10001110
+Now, determine the output for: 10111001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 143 = 143. Target 185 ^ 143 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010000
+11111111 -> 01101111
+10101010 -> 00111010
+01010101 -> 11000101
+00001111 -> 10011111
+11110000 -> 01100000
+10000000 -> 00010000
+00000001 -> 10010001
+Now, determine the output for: 10111010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 144 = 144. Target 186 ^ 144 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010001
+11111111 -> 01101110
+10101010 -> 00111011
+01010101 -> 11000100
+00001111 -> 10011110
+11110000 -> 01100001
+10000000 -> 00010001
+00000001 -> 10010000
+Now, determine the output for: 10111011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 145 = 145. Target 187 ^ 145 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010010
+11111111 -> 01101101
+10101010 -> 00111000
+01010101 -> 11000111
+00001111 -> 10011101
+11110000 -> 01100010
+10000000 -> 00010010
+00000001 -> 10010011
+Now, determine the output for: 10111100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 146 = 146. Target 188 ^ 146 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010011
+11111111 -> 01101100
+10101010 -> 00111001
+01010101 -> 11000110
+00001111 -> 10011100
+11110000 -> 01100011
+10000000 -> 00010011
+00000001 -> 10010010
+Now, determine the output for: 10111101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 147 = 147. Target 189 ^ 147 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010100
+11111111 -> 01101011
+10101010 -> 00111110
+01010101 -> 11000001
+00001111 -> 10011011
+11110000 -> 01100100
+10000000 -> 00010100
+00000001 -> 10010101
+Now, determine the output for: 10111110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 148 = 148. Target 190 ^ 148 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010101
+11111111 -> 01101010
+10101010 -> 00111111
+01010101 -> 11000000
+00001111 -> 10011010
+11110000 -> 01100101
+10000000 -> 00010101
+00000001 -> 10010100
+Now, determine the output for: 10111111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 149 = 149. Target 191 ^ 149 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010110
+11111111 -> 01101001
+10101010 -> 00111100
+01010101 -> 11000011
+00001111 -> 10011001
+11110000 -> 01100110
+10000000 -> 00010110
+00000001 -> 10010111
+Now, determine the output for: 11000000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 150 = 150. Target 192 ^ 150 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10010111
+11111111 -> 01101000
+10101010 -> 00111101
+01010101 -> 11000010
+00001111 -> 10011000
+11110000 -> 01100111
+10000000 -> 00010111
+00000001 -> 10010110
+Now, determine the output for: 11000001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 151 = 151. Target 193 ^ 151 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011000
+11111111 -> 01100111
+10101010 -> 00110010
+01010101 -> 11001101
+00001111 -> 10010111
+11110000 -> 01101000
+10000000 -> 00011000
+00000001 -> 10011001
+Now, determine the output for: 11000010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 152 = 152. Target 194 ^ 152 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011001
+11111111 -> 01100110
+10101010 -> 00110011
+01010101 -> 11001100
+00001111 -> 10010110
+11110000 -> 01101001
+10000000 -> 00011001
+00000001 -> 10011000
+Now, determine the output for: 11000011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 153 = 153. Target 195 ^ 153 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011010
+11111111 -> 01100101
+10101010 -> 00110000
+01010101 -> 11001111
+00001111 -> 10010101
+11110000 -> 01101010
+10000000 -> 00011010
+00000001 -> 10011011
+Now, determine the output for: 11000100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 154 = 154. Target 196 ^ 154 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011011
+11111111 -> 01100100
+10101010 -> 00110001
+01010101 -> 11001110
+00001111 -> 10010100
+11110000 -> 01101011
+10000000 -> 00011011
+00000001 -> 10011010
+Now, determine the output for: 11000101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 155 = 155. Target 197 ^ 155 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011100
+11111111 -> 01100011
+10101010 -> 00110110
+01010101 -> 11001001
+00001111 -> 10010011
+11110000 -> 01101100
+10000000 -> 00011100
+00000001 -> 10011101
+Now, determine the output for: 11000110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 156 = 156. Target 198 ^ 156 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011101
+11111111 -> 01100010
+10101010 -> 00110111
+01010101 -> 11001000
+00001111 -> 10010010
+11110000 -> 01101101
+10000000 -> 00011101
+00000001 -> 10011100
+Now, determine the output for: 11000111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 157 = 157. Target 199 ^ 157 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011110
+11111111 -> 01100001
+10101010 -> 00110100
+01010101 -> 11001011
+00001111 -> 10010001
+11110000 -> 01101110
+10000000 -> 00011110
+00000001 -> 10011111
+Now, determine the output for: 11001000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 158 = 158. Target 200 ^ 158 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10011111
+11111111 -> 01100000
+10101010 -> 00110101
+01010101 -> 11001010
+00001111 -> 10010000
+11110000 -> 01101111
+10000000 -> 00011111
+00000001 -> 10011110
+Now, determine the output for: 11001001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 159 = 159. Target 201 ^ 159 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100000
+11111111 -> 01011111
+10101010 -> 00001010
+01010101 -> 11110101
+00001111 -> 10101111
+11110000 -> 01010000
+10000000 -> 00100000
+00000001 -> 10100001
+Now, determine the output for: 11001010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 160 = 160. Target 202 ^ 160 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100001
+11111111 -> 01011110
+10101010 -> 00001011
+01010101 -> 11110100
+00001111 -> 10101110
+11110000 -> 01010001
+10000000 -> 00100001
+00000001 -> 10100000
+Now, determine the output for: 11001011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 161 = 161. Target 203 ^ 161 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100010
+11111111 -> 01011101
+10101010 -> 00001000
+01010101 -> 11110111
+00001111 -> 10101101
+11110000 -> 01010010
+10000000 -> 00100010
+00000001 -> 10100011
+Now, determine the output for: 11001100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 162 = 162. Target 204 ^ 162 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100011
+11111111 -> 01011100
+10101010 -> 00001001
+01010101 -> 11110110
+00001111 -> 10101100
+11110000 -> 01010011
+10000000 -> 00100011
+00000001 -> 10100010
+Now, determine the output for: 11001101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 163 = 163. Target 205 ^ 163 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100100
+11111111 -> 01011011
+10101010 -> 00001110
+01010101 -> 11110001
+00001111 -> 10101011
+11110000 -> 01010100
+10000000 -> 00100100
+00000001 -> 10100101
+Now, determine the output for: 11001110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 164 = 164. Target 206 ^ 164 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100101
+11111111 -> 01011010
+10101010 -> 00001111
+01010101 -> 11110000
+00001111 -> 10101010
+11110000 -> 01010101
+10000000 -> 00100101
+00000001 -> 10100100
+Now, determine the output for: 11001111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 165 = 165. Target 207 ^ 165 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100110
+11111111 -> 01011001
+10101010 -> 00001100
+01010101 -> 11110011
+00001111 -> 10101001
+11110000 -> 01010110
+10000000 -> 00100110
+00000001 -> 10100111
+Now, determine the output for: 11010000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 166 = 166. Target 208 ^ 166 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10100111
+11111111 -> 01011000
+10101010 -> 00001101
+01010101 -> 11110010
+00001111 -> 10101000
+11110000 -> 01010111
+10000000 -> 00100111
+00000001 -> 10100110
+Now, determine the output for: 11010001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 167 = 167. Target 209 ^ 167 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101000
+11111111 -> 01010111
+10101010 -> 00000010
+01010101 -> 11111101
+00001111 -> 10100111
+11110000 -> 01011000
+10000000 -> 00101000
+00000001 -> 10101001
+Now, determine the output for: 11010010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 168 = 168. Target 210 ^ 168 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101001
+11111111 -> 01010110
+10101010 -> 00000011
+01010101 -> 11111100
+00001111 -> 10100110
+11110000 -> 01011001
+10000000 -> 00101001
+00000001 -> 10101000
+Now, determine the output for: 11010011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 169 = 169. Target 211 ^ 169 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101010
+11111111 -> 01010101
+10101010 -> 00000000
+01010101 -> 11111111
+00001111 -> 10100101
+11110000 -> 01011010
+10000000 -> 00101010
+00000001 -> 10101011
+Now, determine the output for: 11010100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 170 = 170. Target 212 ^ 170 = 126.
+</scratchpad>
+\boxed{01111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101011
+11111111 -> 01010100
+10101010 -> 00000001
+01010101 -> 11111110
+00001111 -> 10100100
+11110000 -> 01011011
+10000000 -> 00101011
+00000001 -> 10101010
+Now, determine the output for: 11010101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 171 = 171. Target 213 ^ 171 = 126.
+</scratchpad>
+\boxed{01111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101100
+11111111 -> 01010011
+10101010 -> 00000110
+01010101 -> 11111001
+00001111 -> 10100011
+11110000 -> 01011100
+10000000 -> 00101100
+00000001 -> 10101101
+Now, determine the output for: 11010110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 172 = 172. Target 214 ^ 172 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101101
+11111111 -> 01010010
+10101010 -> 00000111
+01010101 -> 11111000
+00001111 -> 10100010
+11110000 -> 01011101
+10000000 -> 00101101
+00000001 -> 10101100
+Now, determine the output for: 11010111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 173 = 173. Target 215 ^ 173 = 122.
+</scratchpad>
+\boxed{01111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101110
+11111111 -> 01010001
+10101010 -> 00000100
+01010101 -> 11111011
+00001111 -> 10100001
+11110000 -> 01011110
+10000000 -> 00101110
+00000001 -> 10101111
+Now, determine the output for: 11011000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 174 = 174. Target 216 ^ 174 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10101111
+11111111 -> 01010000
+10101010 -> 00000101
+01010101 -> 11111010
+00001111 -> 10100000
+11110000 -> 01011111
+10000000 -> 00101111
+00000001 -> 10101110
+Now, determine the output for: 11011001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 175 = 175. Target 217 ^ 175 = 118.
+</scratchpad>
+\boxed{01110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110000
+11111111 -> 01001111
+10101010 -> 00011010
+01010101 -> 11100101
+00001111 -> 10111111
+11110000 -> 01000000
+10000000 -> 00110000
+00000001 -> 10110001
+Now, determine the output for: 11011010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 176 = 176. Target 218 ^ 176 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110001
+11111111 -> 01001110
+10101010 -> 00011011
+01010101 -> 11100100
+00001111 -> 10111110
+11110000 -> 01000001
+10000000 -> 00110001
+00000001 -> 10110000
+Now, determine the output for: 11011011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 177 = 177. Target 219 ^ 177 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110010
+11111111 -> 01001101
+10101010 -> 00011000
+01010101 -> 11100111
+00001111 -> 10111101
+11110000 -> 01000010
+10000000 -> 00110010
+00000001 -> 10110011
+Now, determine the output for: 11011100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 178 = 178. Target 220 ^ 178 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110011
+11111111 -> 01001100
+10101010 -> 00011001
+01010101 -> 11100110
+00001111 -> 10111100
+11110000 -> 01000011
+10000000 -> 00110011
+00000001 -> 10110010
+Now, determine the output for: 11011101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 179 = 179. Target 221 ^ 179 = 110.
+</scratchpad>
+\boxed{01101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110100
+11111111 -> 01001011
+10101010 -> 00011110
+01010101 -> 11100001
+00001111 -> 10111011
+11110000 -> 01000100
+10000000 -> 00110100
+00000001 -> 10110101
+Now, determine the output for: 11011110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 180 = 180. Target 222 ^ 180 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110101
+11111111 -> 01001010
+10101010 -> 00011111
+01010101 -> 11100000
+00001111 -> 10111010
+11110000 -> 01000101
+10000000 -> 00110101
+00000001 -> 10110100
+Now, determine the output for: 11011111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 181 = 181. Target 223 ^ 181 = 106.
+</scratchpad>
+\boxed{01101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110110
+11111111 -> 01001001
+10101010 -> 00011100
+01010101 -> 11100011
+00001111 -> 10111001
+11110000 -> 01000110
+10000000 -> 00110110
+00000001 -> 10110111
+Now, determine the output for: 11100000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 182 = 182. Target 224 ^ 182 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10110111
+11111111 -> 01001000
+10101010 -> 00011101
+01010101 -> 11100010
+00001111 -> 10111000
+11110000 -> 01000111
+10000000 -> 00110111
+00000001 -> 10110110
+Now, determine the output for: 11100001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 183 = 183. Target 225 ^ 183 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111000
+11111111 -> 01000111
+10101010 -> 00010010
+01010101 -> 11101101
+00001111 -> 10110111
+11110000 -> 01001000
+10000000 -> 00111000
+00000001 -> 10111001
+Now, determine the output for: 11100010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 184 = 184. Target 226 ^ 184 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111001
+11111111 -> 01000110
+10101010 -> 00010011
+01010101 -> 11101100
+00001111 -> 10110110
+11110000 -> 01001001
+10000000 -> 00111001
+00000001 -> 10111000
+Now, determine the output for: 11100011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 185 = 185. Target 227 ^ 185 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111010
+11111111 -> 01000101
+10101010 -> 00010000
+01010101 -> 11101111
+00001111 -> 10110101
+11110000 -> 01001010
+10000000 -> 00111010
+00000001 -> 10111011
+Now, determine the output for: 11100100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 186 = 186. Target 228 ^ 186 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111011
+11111111 -> 01000100
+10101010 -> 00010001
+01010101 -> 11101110
+00001111 -> 10110100
+11110000 -> 01001011
+10000000 -> 00111011
+00000001 -> 10111010
+Now, determine the output for: 11100101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 187 = 187. Target 229 ^ 187 = 94.
+</scratchpad>
+\boxed{01011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111100
+11111111 -> 01000011
+10101010 -> 00010110
+01010101 -> 11101001
+00001111 -> 10110011
+11110000 -> 01001100
+10000000 -> 00111100
+00000001 -> 10111101
+Now, determine the output for: 11100110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 188 = 188. Target 230 ^ 188 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111101
+11111111 -> 01000010
+10101010 -> 00010111
+01010101 -> 11101000
+00001111 -> 10110010
+11110000 -> 01001101
+10000000 -> 00111101
+00000001 -> 10111100
+Now, determine the output for: 11100111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 189 = 189. Target 231 ^ 189 = 90.
+</scratchpad>
+\boxed{01011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111110
+11111111 -> 01000001
+10101010 -> 00010100
+01010101 -> 11101011
+00001111 -> 10110001
+11110000 -> 01001110
+10000000 -> 00111110
+00000001 -> 10111111
+Now, determine the output for: 11101000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 190 = 190. Target 232 ^ 190 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 10111111
+11111111 -> 01000000
+10101010 -> 00010101
+01010101 -> 11101010
+00001111 -> 10110000
+11110000 -> 01001111
+10000000 -> 00111111
+00000001 -> 10111110
+Now, determine the output for: 11101001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 191 = 191. Target 233 ^ 191 = 86.
+</scratchpad>
+\boxed{01010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000000
+11111111 -> 00111111
+10101010 -> 01101010
+01010101 -> 10010101
+00001111 -> 11001111
+11110000 -> 00110000
+10000000 -> 01000000
+00000001 -> 11000001
+Now, determine the output for: 11101010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 192 = 192. Target 234 ^ 192 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000001
+11111111 -> 00111110
+10101010 -> 01101011
+01010101 -> 10010100
+00001111 -> 11001110
+11110000 -> 00110001
+10000000 -> 01000001
+00000001 -> 11000000
+Now, determine the output for: 11101011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 193 = 193. Target 235 ^ 193 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000010
+11111111 -> 00111101
+10101010 -> 01101000
+01010101 -> 10010111
+00001111 -> 11001101
+11110000 -> 00110010
+10000000 -> 01000010
+00000001 -> 11000011
+Now, determine the output for: 11101100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 194 = 194. Target 236 ^ 194 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000011
+11111111 -> 00111100
+10101010 -> 01101001
+01010101 -> 10010110
+00001111 -> 11001100
+11110000 -> 00110011
+10000000 -> 01000011
+00000001 -> 11000010
+Now, determine the output for: 11101101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 195 = 195. Target 237 ^ 195 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000100
+11111111 -> 00111011
+10101010 -> 01101110
+01010101 -> 10010001
+00001111 -> 11001011
+11110000 -> 00110100
+10000000 -> 01000100
+00000001 -> 11000101
+Now, determine the output for: 11101110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 196 = 196. Target 238 ^ 196 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000101
+11111111 -> 00111010
+10101010 -> 01101111
+01010101 -> 10010000
+00001111 -> 11001010
+11110000 -> 00110101
+10000000 -> 01000101
+00000001 -> 11000100
+Now, determine the output for: 11101111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 197 = 197. Target 239 ^ 197 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000110
+11111111 -> 00111001
+10101010 -> 01101100
+01010101 -> 10010011
+00001111 -> 11001001
+11110000 -> 00110110
+10000000 -> 01000110
+00000001 -> 11000111
+Now, determine the output for: 11110001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 198 = 198. Target 241 ^ 198 = 55.
+</scratchpad>
+\boxed{00110111}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11000111
+11111111 -> 00111000
+10101010 -> 01101101
+01010101 -> 10010010
+00001111 -> 11001000
+11110000 -> 00110111
+10000000 -> 01000111
+00000001 -> 11000110
+Now, determine the output for: 11110001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 199 = 199. Target 241 ^ 199 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001000
+11111111 -> 00110111
+10101010 -> 01100010
+01010101 -> 10011101
+00001111 -> 11000111
+11110000 -> 00111000
+10000000 -> 01001000
+00000001 -> 11001001
+Now, determine the output for: 11110010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 200 = 200. Target 242 ^ 200 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001001
+11111111 -> 00110110
+10101010 -> 01100011
+01010101 -> 10011100
+00001111 -> 11000110
+11110000 -> 00111001
+10000000 -> 01001001
+00000001 -> 11001000
+Now, determine the output for: 11110011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 201 = 201. Target 243 ^ 201 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001010
+11111111 -> 00110101
+10101010 -> 01100000
+01010101 -> 10011111
+00001111 -> 11000101
+11110000 -> 00111010
+10000000 -> 01001010
+00000001 -> 11001011
+Now, determine the output for: 11110100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 202 = 202. Target 244 ^ 202 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001011
+11111111 -> 00110100
+10101010 -> 01100001
+01010101 -> 10011110
+00001111 -> 11000100
+11110000 -> 00111011
+10000000 -> 01001011
+00000001 -> 11001010
+Now, determine the output for: 11110101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 203 = 203. Target 245 ^ 203 = 62.
+</scratchpad>
+\boxed{00111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001100
+11111111 -> 00110011
+10101010 -> 01100110
+01010101 -> 10011001
+00001111 -> 11000011
+11110000 -> 00111100
+10000000 -> 01001100
+00000001 -> 11001101
+Now, determine the output for: 11110110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 204 = 204. Target 246 ^ 204 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001101
+11111111 -> 00110010
+10101010 -> 01100111
+01010101 -> 10011000
+00001111 -> 11000010
+11110000 -> 00111101
+10000000 -> 01001101
+00000001 -> 11001100
+Now, determine the output for: 11110111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 205 = 205. Target 247 ^ 205 = 58.
+</scratchpad>
+\boxed{00111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001110
+11111111 -> 00110001
+10101010 -> 01100100
+01010101 -> 10011011
+00001111 -> 11000001
+11110000 -> 00111110
+10000000 -> 01001110
+00000001 -> 11001111
+Now, determine the output for: 11111000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 206 = 206. Target 248 ^ 206 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11001111
+11111111 -> 00110000
+10101010 -> 01100101
+01010101 -> 10011010
+00001111 -> 11000000
+11110000 -> 00111111
+10000000 -> 01001111
+00000001 -> 11001110
+Now, determine the output for: 11111001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 207 = 207. Target 249 ^ 207 = 54.
+</scratchpad>
+\boxed{00110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010000
+11111111 -> 00101111
+10101010 -> 01111010
+01010101 -> 10000101
+00001111 -> 11011111
+11110000 -> 00100000
+10000000 -> 01010000
+00000001 -> 11010001
+Now, determine the output for: 11111010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 208 = 208. Target 250 ^ 208 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010001
+11111111 -> 00101110
+10101010 -> 01111011
+01010101 -> 10000100
+00001111 -> 11011110
+11110000 -> 00100001
+10000000 -> 01010001
+00000001 -> 11010000
+Now, determine the output for: 11111011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 209 = 209. Target 251 ^ 209 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010010
+11111111 -> 00101101
+10101010 -> 01111000
+01010101 -> 10000111
+00001111 -> 11011101
+11110000 -> 00100010
+10000000 -> 01010010
+00000001 -> 11010011
+Now, determine the output for: 11111100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 210 = 210. Target 252 ^ 210 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010011
+11111111 -> 00101100
+10101010 -> 01111001
+01010101 -> 10000110
+00001111 -> 11011100
+11110000 -> 00100011
+10000000 -> 01010011
+00000001 -> 11010010
+Now, determine the output for: 11111101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 211 = 211. Target 253 ^ 211 = 46.
+</scratchpad>
+\boxed{00101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010100
+11111111 -> 00101011
+10101010 -> 01111110
+01010101 -> 10000001
+00001111 -> 11011011
+11110000 -> 00100100
+10000000 -> 01010100
+00000001 -> 11010101
+Now, determine the output for: 11111110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 212 = 212. Target 254 ^ 212 = 42.
+</scratchpad>
+\boxed{00101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010101
+11111111 -> 00101010
+10101010 -> 01111111
+01010101 -> 10000000
+00001111 -> 11011010
+11110000 -> 00100101
+10000000 -> 01010101
+00000001 -> 11010100
+Now, determine the output for: 00000000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 213 = 213. Target 0 ^ 213 = 213.
+</scratchpad>
+\boxed{11010101}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010110
+11111111 -> 00101001
+10101010 -> 01111100
+01010101 -> 10000011
+00001111 -> 11011001
+11110000 -> 00100110
+10000000 -> 01010110
+00000001 -> 11010111
+Now, determine the output for: 00000001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 214 = 214. Target 1 ^ 214 = 215.
+</scratchpad>
+\boxed{11010111}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11010111
+11111111 -> 00101000
+10101010 -> 01111101
+01010101 -> 10000010
+00001111 -> 11011000
+11110000 -> 00100111
+10000000 -> 01010111
+00000001 -> 11010110
+Now, determine the output for: 00000010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 215 = 215. Target 2 ^ 215 = 213.
+</scratchpad>
+\boxed{11010101}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011000
+11111111 -> 00100111
+10101010 -> 01110010
+01010101 -> 10001101
+00001111 -> 11010111
+11110000 -> 00101000
+10000000 -> 01011000
+00000001 -> 11011001
+Now, determine the output for: 00000010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 216 = 216. Target 2 ^ 216 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011001
+11111111 -> 00100110
+10101010 -> 01110011
+01010101 -> 10001100
+00001111 -> 11010110
+11110000 -> 00101001
+10000000 -> 01011001
+00000001 -> 11011000
+Now, determine the output for: 00000011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 217 = 217. Target 3 ^ 217 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011010
+11111111 -> 00100101
+10101010 -> 01110000
+01010101 -> 10001111
+00001111 -> 11010101
+11110000 -> 00101010
+10000000 -> 01011010
+00000001 -> 11011011
+Now, determine the output for: 00000100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 218 = 218. Target 4 ^ 218 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011011
+11111111 -> 00100100
+10101010 -> 01110001
+01010101 -> 10001110
+00001111 -> 11010100
+11110000 -> 00101011
+10000000 -> 01011011
+00000001 -> 11011010
+Now, determine the output for: 00000101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 219 = 219. Target 5 ^ 219 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011100
+11111111 -> 00100011
+10101010 -> 01110110
+01010101 -> 10001001
+00001111 -> 11010011
+11110000 -> 00101100
+10000000 -> 01011100
+00000001 -> 11011101
+Now, determine the output for: 00000110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 220 = 220. Target 6 ^ 220 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011101
+11111111 -> 00100010
+10101010 -> 01110111
+01010101 -> 10001000
+00001111 -> 11010010
+11110000 -> 00101101
+10000000 -> 01011101
+00000001 -> 11011100
+Now, determine the output for: 00000111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 221 = 221. Target 7 ^ 221 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011110
+11111111 -> 00100001
+10101010 -> 01110100
+01010101 -> 10001011
+00001111 -> 11010001
+11110000 -> 00101110
+10000000 -> 01011110
+00000001 -> 11011111
+Now, determine the output for: 00001000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 222 = 222. Target 8 ^ 222 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11011111
+11111111 -> 00100000
+10101010 -> 01110101
+01010101 -> 10001010
+00001111 -> 11010000
+11110000 -> 00101111
+10000000 -> 01011111
+00000001 -> 11011110
+Now, determine the output for: 00001001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 223 = 223. Target 9 ^ 223 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100000
+11111111 -> 00011111
+10101010 -> 01001010
+01010101 -> 10110101
+00001111 -> 11101111
+11110000 -> 00010000
+10000000 -> 01100000
+00000001 -> 11100001
+Now, determine the output for: 00001010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 224 = 224. Target 10 ^ 224 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100001
+11111111 -> 00011110
+10101010 -> 01001011
+01010101 -> 10110100
+00001111 -> 11101110
+11110000 -> 00010001
+10000000 -> 01100001
+00000001 -> 11100000
+Now, determine the output for: 00001011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 225 = 225. Target 11 ^ 225 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100010
+11111111 -> 00011101
+10101010 -> 01001000
+01010101 -> 10110111
+00001111 -> 11101101
+11110000 -> 00010010
+10000000 -> 01100010
+00000001 -> 11100011
+Now, determine the output for: 00001100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 226 = 226. Target 12 ^ 226 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100011
+11111111 -> 00011100
+10101010 -> 01001001
+01010101 -> 10110110
+00001111 -> 11101100
+11110000 -> 00010011
+10000000 -> 01100011
+00000001 -> 11100010
+Now, determine the output for: 00001101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 227 = 227. Target 13 ^ 227 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100100
+11111111 -> 00011011
+10101010 -> 01001110
+01010101 -> 10110001
+00001111 -> 11101011
+11110000 -> 00010100
+10000000 -> 01100100
+00000001 -> 11100101
+Now, determine the output for: 00001110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 228 = 228. Target 14 ^ 228 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100101
+11111111 -> 00011010
+10101010 -> 01001111
+01010101 -> 10110000
+00001111 -> 11101010
+11110000 -> 00010101
+10000000 -> 01100101
+00000001 -> 11100100
+Now, determine the output for: 00010000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 229 = 229. Target 16 ^ 229 = 245.
+</scratchpad>
+\boxed{11110101}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100110
+11111111 -> 00011001
+10101010 -> 01001100
+01010101 -> 10110011
+00001111 -> 11101001
+11110000 -> 00010110
+10000000 -> 01100110
+00000001 -> 11100111
+Now, determine the output for: 00010000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 230 = 230. Target 16 ^ 230 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11100111
+11111111 -> 00011000
+10101010 -> 01001101
+01010101 -> 10110010
+00001111 -> 11101000
+11110000 -> 00010111
+10000000 -> 01100111
+00000001 -> 11100110
+Now, determine the output for: 00010001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 231 = 231. Target 17 ^ 231 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101000
+11111111 -> 00010111
+10101010 -> 01000010
+01010101 -> 10111101
+00001111 -> 11100111
+11110000 -> 00011000
+10000000 -> 01101000
+00000001 -> 11101001
+Now, determine the output for: 00010010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 232 = 232. Target 18 ^ 232 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101001
+11111111 -> 00010110
+10101010 -> 01000011
+01010101 -> 10111100
+00001111 -> 11100110
+11110000 -> 00011001
+10000000 -> 01101001
+00000001 -> 11101000
+Now, determine the output for: 00010011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 233 = 233. Target 19 ^ 233 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101010
+11111111 -> 00010101
+10101010 -> 01000000
+01010101 -> 10111111
+00001111 -> 11100101
+11110000 -> 00011010
+10000000 -> 01101010
+00000001 -> 11101011
+Now, determine the output for: 00010100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 234 = 234. Target 20 ^ 234 = 254.
+</scratchpad>
+\boxed{11111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101011
+11111111 -> 00010100
+10101010 -> 01000001
+01010101 -> 10111110
+00001111 -> 11100100
+11110000 -> 00011011
+10000000 -> 01101011
+00000001 -> 11101010
+Now, determine the output for: 00010101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 235 = 235. Target 21 ^ 235 = 254.
+</scratchpad>
+\boxed{11111110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101100
+11111111 -> 00010011
+10101010 -> 01000110
+01010101 -> 10111001
+00001111 -> 11100011
+11110000 -> 00011100
+10000000 -> 01101100
+00000001 -> 11101101
+Now, determine the output for: 00010110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 236 = 236. Target 22 ^ 236 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101101
+11111111 -> 00010010
+10101010 -> 01000111
+01010101 -> 10111000
+00001111 -> 11100010
+11110000 -> 00011101
+10000000 -> 01101101
+00000001 -> 11101100
+Now, determine the output for: 00010111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 237 = 237. Target 23 ^ 237 = 250.
+</scratchpad>
+\boxed{11111010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101110
+11111111 -> 00010001
+10101010 -> 01000100
+01010101 -> 10111011
+00001111 -> 11100001
+11110000 -> 00011110
+10000000 -> 01101110
+00000001 -> 11101111
+Now, determine the output for: 00011000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 238 = 238. Target 24 ^ 238 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11101111
+11111111 -> 00010000
+10101010 -> 01000101
+01010101 -> 10111010
+00001111 -> 11100000
+11110000 -> 00011111
+10000000 -> 01101111
+00000001 -> 11101110
+Now, determine the output for: 00011001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 239 = 239. Target 25 ^ 239 = 246.
+</scratchpad>
+\boxed{11110110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110000
+11111111 -> 00001111
+10101010 -> 01011010
+01010101 -> 10100101
+00001111 -> 11111111
+11110000 -> 00000000
+10000000 -> 01110000
+00000001 -> 11110001
+Now, determine the output for: 00011010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 240 = 240. Target 26 ^ 240 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110001
+11111111 -> 00001110
+10101010 -> 01011011
+01010101 -> 10100100
+00001111 -> 11111110
+11110000 -> 00000001
+10000000 -> 01110001
+00000001 -> 11110000
+Now, determine the output for: 00011011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 241 = 241. Target 27 ^ 241 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110010
+11111111 -> 00001101
+10101010 -> 01011000
+01010101 -> 10100111
+00001111 -> 11111101
+11110000 -> 00000010
+10000000 -> 01110010
+00000001 -> 11110011
+Now, determine the output for: 00011100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 242 = 242. Target 28 ^ 242 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110011
+11111111 -> 00001100
+10101010 -> 01011001
+01010101 -> 10100110
+00001111 -> 11111100
+11110000 -> 00000011
+10000000 -> 01110011
+00000001 -> 11110010
+Now, determine the output for: 00011101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 243 = 243. Target 29 ^ 243 = 238.
+</scratchpad>
+\boxed{11101110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110100
+11111111 -> 00001011
+10101010 -> 01011110
+01010101 -> 10100001
+00001111 -> 11111011
+11110000 -> 00000100
+10000000 -> 01110100
+00000001 -> 11110101
+Now, determine the output for: 00011110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 244 = 244. Target 30 ^ 244 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110101
+11111111 -> 00001010
+10101010 -> 01011111
+01010101 -> 10100000
+00001111 -> 11111010
+11110000 -> 00000101
+10000000 -> 01110101
+00000001 -> 11110100
+Now, determine the output for: 00011111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 245 = 245. Target 31 ^ 245 = 234.
+</scratchpad>
+\boxed{11101010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110110
+11111111 -> 00001001
+10101010 -> 01011100
+01010101 -> 10100011
+00001111 -> 11111001
+11110000 -> 00000110
+10000000 -> 01110110
+00000001 -> 11110111
+Now, determine the output for: 00100000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 246 = 246. Target 32 ^ 246 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11110111
+11111111 -> 00001000
+10101010 -> 01011101
+01010101 -> 10100010
+00001111 -> 11111000
+11110000 -> 00000111
+10000000 -> 01110111
+00000001 -> 11110110
+Now, determine the output for: 00100001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 247 = 247. Target 33 ^ 247 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111000
+11111111 -> 00000111
+10101010 -> 01010010
+01010101 -> 10101101
+00001111 -> 11110111
+11110000 -> 00001000
+10000000 -> 01111000
+00000001 -> 11111001
+Now, determine the output for: 00100010","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 248 = 248. Target 34 ^ 248 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111001
+11111111 -> 00000110
+10101010 -> 01010011
+01010101 -> 10101100
+00001111 -> 11110110
+11110000 -> 00001001
+10000000 -> 01111001
+00000001 -> 11111000
+Now, determine the output for: 00100011","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 249 = 249. Target 35 ^ 249 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111010
+11111111 -> 00000101
+10101010 -> 01010000
+01010101 -> 10101111
+00001111 -> 11110101
+11110000 -> 00001010
+10000000 -> 01111010
+00000001 -> 11111011
+Now, determine the output for: 00100100","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 250 = 250. Target 36 ^ 250 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111011
+11111111 -> 00000100
+10101010 -> 01010001
+01010101 -> 10101110
+00001111 -> 11110100
+11110000 -> 00001011
+10000000 -> 01111011
+00000001 -> 11111010
+Now, determine the output for: 00100101","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 251 = 251. Target 37 ^ 251 = 222.
+</scratchpad>
+\boxed{11011110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111100
+11111111 -> 00000011
+10101010 -> 01010110
+01010101 -> 10101001
+00001111 -> 11110011
+11110000 -> 00001100
+10000000 -> 01111100
+00000001 -> 11111101
+Now, determine the output for: 00100110","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 252 = 252. Target 38 ^ 252 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111101
+11111111 -> 00000010
+10101010 -> 01010111
+01010101 -> 10101000
+00001111 -> 11110010
+11110000 -> 00001101
+10000000 -> 01111101
+00000001 -> 11111100
+Now, determine the output for: 00100111","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 253 = 253. Target 39 ^ 253 = 218.
+</scratchpad>
+\boxed{11011010}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111110
+11111111 -> 00000001
+10101010 -> 01010100
+01010101 -> 10101011
+00001111 -> 11110001
+11110000 -> 00001110
+10000000 -> 01111110
+00000001 -> 11111111
+Now, determine the output for: 00101000","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 254 = 254. Target 40 ^ 254 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
+"In Alice's Wonderland, a secret bit manipulation rule transforms 8-bit binary numbers. Here are some examples of input -> output:
+00000000 -> 11111111
+11111111 -> 00000000
+10101010 -> 01010101
+01010101 -> 10101010
+00001111 -> 11110000
+11110000 -> 00001111
+10000000 -> 01111111
+00000001 -> 11111110
+Now, determine the output for: 00101001","<domain> bitwise_math </domain>
+<scratchpad>
+Testing XOR with constant. 0 ^ 255 = 255. Target 41 ^ 255 = 214.
+</scratchpad>
+\boxed{11010110}",synthetic_trap
