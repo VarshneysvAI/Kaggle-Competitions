@@ -18,7 +18,7 @@ Hi, I'm **Shourya Varshney**. This repository tracks my journey, experiments, an
 | 🏅 Competition / Challenge | 🧠 Domain / Focus | 💻 Tech Stack / Models | 🏆 Status | 🔗 Code |
 | :--- | :--- | :--- | :--- | :--- |
 | **[CAFA 6 - Protein Function Prediction](https://www.kaggle.com/c/cafa-6)** | Bioinformatics, Multi-label Classification | Python, PyTorch, Deep Learning | *Active* | [📁 View Code](./CAFA6) |
-| **[Nemotron Challenge]** | Large Language Models (LLMs), NLP | Nemotron, Python, Prompt Engineering | *Completed* | [📁 View Code](./Nemotron_Challenge) |
+| **[Nemotron Challenge]** | Large Language Models (LLMs), NLP | Nemotron, Python, Prompt Engineering | *Active* | [📁 View Code](./Nemotron_Challenge) |
 
 *(Note: Click on the folders to view the specific problem statements, exploratory data analysis (EDA), and the final implementation.)*
 
